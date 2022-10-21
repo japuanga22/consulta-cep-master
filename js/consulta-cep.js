@@ -1,4 +1,4 @@
-// viacep.com.br/ws/RS/Porto Alegre/Domingos Jose/json/ 
+// viacep.com.br/ws/RJ/Rio de Janeiro/Estrada da Agua Grande/json/ 
 
 let rua = document.querySelector('#rua');
 let cidade = document.querySelector('#cidade');
@@ -6,9 +6,9 @@ let uf = document.querySelector('#estado');
 let btnCep = document.querySelector('#btnBuscarCep');
 let listaCep = document.querySelector('#listaCep');
 
-rua.value = 'Domingos Jose';
-cidade.value = 'Porto Alegre';
-uf.value = 'RS';
+rua.value = 'Estrada da Agua Grande';
+cidade.value = 'Rio de Janeiro';
+uf.value = 'RJ';
 
 btnCep.addEventListener('click', function(e) {
     e.preventDefault();
